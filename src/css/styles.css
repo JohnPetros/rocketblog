@@ -1,0 +1,343 @@
+:root {
+  --purple-bg: #290742;
+  --dark-bg: #170027;
+  --button-bg: #9e6dc2;
+  --white: #fff;
+  --light-purple: #fbf6ff;
+  --green: #4fff4b;
+
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+header {
+  background-color: var(--purple-bg);
+  border-bottom: 0.6rem solid var(--green);
+  padding: 0 13.5rem 6.4rem;
+}
+
+header .navbar {
+  width: 100%;
+  padding: 2rem 13.5rem;
+
+  position: fixed;
+  background-color: inherit;
+  left: 0;
+  top: 0;
+}
+
+header .navbar .nav-content {
+  height: 100%;
+  width: 100%;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navbar .nav-items {
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+}
+
+header .navbar .nav-items .nav-item a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+header .navbar .nav-items .nav-item.active {
+  font-weight: bold;
+}
+
+header .navbar .nav-items .nav-item.active::before,
+header .navbar .nav-items .nav-item:hover {
+  content: "";
+  display: inline-block;
+  width: 0.2rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  background-color: var(--green);
+}
+
+header .navbar .search-bar .search {
+  background-color: var(--dark-bg);
+  color: var(--white);
+  padding: 1.5rem 1rem;
+  border-radius: 0.4rem;
+  width: 23rem;
+  outline: none;
+}
+
+header .navbar .search-bar button {
+  background-color: var(--button-bg);
+  color: var(--light-purple);
+  border-radius: 0.4rem;
+  padding: 1.5rem 2.5rem;
+  cursor: pointer;
+}
+
+header .navbar .btn-mobile {
+  background-color: inherit;
+  z-index: 10;
+  display: none;
+}
+
+header .navbar .menu-hamburguer-trigger {
+  display: none;
+}
+
+header .navbar .btn-mobile .menu-hamburguer {
+  display: block;
+  width: 2.5rem;
+  border-top: 0.2rem solid var(--light-purple);
+}
+header .navbar .menu-hamburguer::before,
+header .navbar .menu-hamburguer::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 0.2rem;
+  position: relative;
+  margin-top: 0.5rem;
+  background: var(--light-purple);
+  transition: all 0.4s ease;
+}
+
+header .navbar .menu-hamburguer-trigger:checked + .btn-mobile .menu-hamburguer {
+  border-top-color: transparent;
+}
+
+header
+  .navbar
+  .menu-hamburguer-trigger:checked
+  + .btn-mobile
+  .menu-hamburguer::before {
+  transform: rotate(135deg);
+}
+
+header
+  .navbar
+  .menu-hamburguer-trigger:checked
+  + .btn-mobile
+  .menu-hamburguer::after {
+  transform: rotate(-135deg);
+  top: -0.7rem;
+}
+
+header .showcase {
+  margin-top: 8.4rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .showcase .content-text {
+  width: 50rem;
+  max-width: 90%;
+}
+
+header .showcase h1 {
+  font-size: 3.6rem;
+  color: var(--button-bg);
+}
+
+header .showcase p {
+  color: var(--light-purple);
+  font-size: 1.8rem;
+  margin: 1.6rem 0 2.4rem;
+}
+
+header .showcase .see-more {
+  font-size: 1.8rem;
+  color: var(--button-bg);
+  text-decoration: none;
+}
+
+header .showcase .see-more .icon {
+  color: var(--green);
+  margin-left: 0.8rem;
+}
+
+header .navbar .search-bar button:hover,
+header .showcase .see-more:hover {
+  opacity: 0.8;
+}
+
+main {
+  padding: 6rem 13.5rem;
+}
+
+main .main-posts {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .main-posts .post {
+  width: 45rem;
+  margin-bottom: 6.4rem;
+}
+
+main .other-posts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post {
+  width: 37rem;
+}
+
+.post img {
+  display: block;
+  border-radius: 0.8rem;
+}
+
+.post small,
+.post p {
+  font-size: 1.6rem;
+}
+
+.post h3 {
+  color: var(--purple-bg);
+  padding: 0.8rem 0;
+  font-size: 2.4rem;
+}
+
+@media (max-width: 1350px) {
+  header {
+    padding-inline: 5rem;
+  }
+
+  header .showcase h1 {
+    font-size: 2.5rem;
+  }
+  header .showcase img {
+    width: 55rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .main-posts {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .main-posts .right {
+    align-items: center;
+  }
+  main .other-posts {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  main .main-posts .post,
+  .post {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  .post img {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 1116px) {
+  header .navbar .logo {
+    display: none;
+  }
+  header .showcase {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 950px) {
+  header .navbar .nav-items {
+    height: 100vh;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    left: -20rem;
+    background-color: var(--dark-bg);
+    padding: 0 5rem;
+    transition: all 0.4s ease;
+  }
+  header .navbar .btn-mobile {
+    display: block;
+  }
+
+  .navbar .menu-hamburguer-trigger:checked ~ .nav-items {
+    transform: translateX(0.01rem);
+    left: 0rem;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding-inline: 2rem;
+  }
+  header .navbar {
+    padding-inline: 5rem;
+  }
+  header .navbar .search-bar .search {
+    width: 20rem;
+  }
+  header .content-text {
+    width: 100%;
+  }
+  header .showcase h1 {
+    font-size: 2rem;
+  }
+  header .showcase p {
+    font-size: 1.5rem;
+  }
+  header .showcase .see-more {
+    font-size: 1.6rem;
+  }
+  header .showcase img {
+    width: 40rem;
+  }
+  main {
+    padding-inline: 5rem;
+  }
+  .post img {
+    width: 40rem;
+  }
+  .post h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  header .navbar {
+    padding-inline: 2rem;
+  }
+  header .navbar .search-bar .search {
+    width: 18rem;
+  }
+  header .showcase img {
+    width: 30rem;
+  }
+  .post img {
+    width: 30rem;
+  }
+}

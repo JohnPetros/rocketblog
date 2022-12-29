@@ -48,7 +48,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Como rodar este projeto
 
-Você pode baixar os arquivos direto deste repositório e executá-los no seu navegador ou simplesmente acessar [este link](https://johnpetros.github.io/rocketblog/) visualizar o projeto colocado no ar através do GitHub Pages
+Você pode baixar os arquivos direto deste repositório e executá-los no seu navegador ou simplesmente acessar [este link](https://johnpetros.github.io/rocketblog/) visualizar o projeto colocado no ar através do GitHub Pages.
 
 ---
 

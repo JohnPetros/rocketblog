@@ -245,10 +245,7 @@ main .other-posts > div {
   main .main-posts .right {
     align-items: center;
   }
-  main .other-posts > div {
-    flex-direction: column;
   
-  }
   main .main-posts .post,
   .post {
     width: 90%;
@@ -269,6 +266,9 @@ main .other-posts > div {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+  }
+  main .other-posts > div {
+    flex-direction: column;
   }
 }
 

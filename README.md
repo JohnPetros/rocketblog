@@ -53,7 +53,7 @@ Você pode baixar os arquivos direto deste repositório e executá-los no seu na
 ---
 
 ## 🎨 Layout:
-No link abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+No link abaixo você encontra o layout do projeto feito pela equipe da Rocketseat. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
 - [Layout](https://www.figma.com/file/glgyL2Vz8hZ1HsjzvcOx8T/DD-%2F-RocketBlog-(Copy)?node-id=3%3A2&t=cXVyNYSIc4dm9Py8-0)
 

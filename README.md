@@ -25,7 +25,9 @@
 Homepage responsiva para um blog de notícias voltado para devs feito com HTML e CSS. Projeto desenvolvido como desafio  durante o Discover, que programa de ensino de programação web para iniciantes promovido a @Rocketseat.
 
 ### Demonstração
-![rocketblog](https://user-images.githubusercontent.com/93893533/209964499-6ed1139c-1412-48f0-9469-88618f4cccd8.gif)
+<div align="center">
+    ![rocketblog](https://user-images.githubusercontent.com/93893533/209964499-6ed1139c-1412-48f0-9469-88618f4cccd8.gif)
+</div>
 
 ---
 

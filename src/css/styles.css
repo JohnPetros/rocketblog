@@ -63,14 +63,17 @@ header .navbar .nav-items .nav-item.active {
   font-weight: bold;
 }
 
-header .navbar .nav-items .nav-item.active::before,
-header .navbar .nav-items .nav-item:hover {
+header .navbar .nav-items .nav-item.active::before {
   content: "";
   display: inline-block;
   width: 0.2rem;
   height: 1.5rem;
   margin-right: 0.5rem;
   background-color: var(--green);
+}
+
+header .navbar .nav-items .nav-item:hover {
+  opacity: 0.7;
 }
 
 header .navbar .search-bar .search {
@@ -91,6 +94,7 @@ header .navbar .search-bar button {
 }
 
 header .navbar .btn-mobile {
+  cursor: pointer;
   background-color: inherit;
   z-index: 10;
   display: none;
@@ -191,7 +195,7 @@ main .main-posts .post {
   margin-bottom: 6.4rem;
 }
 
-main .other-posts {
+main .other-posts > div {
   display: flex;
   justify-content: space-between;
 }
@@ -241,10 +245,9 @@ main .other-posts {
   main .main-posts .right {
     align-items: center;
   }
-  main .other-posts {
+  main .other-posts > div {
     flex-direction: column;
-    align-items: center;
-    gap: 2.5rem;
+  
   }
   main .main-posts .post,
   .post {

@@ -26,7 +26,7 @@ Homepage responsiva para um blog de notícias voltado para devs feito com HTML e
 
 ### Demonstração
 <div align="center">
-    <img width="550" alt="GIF demontrando o Rocketblog" src=".github/rocketblog.gif" />
+    <img width="750" alt="GIF demontrando o Rocketblog" src=".github/rocketblog.gif" />
 </div>
 
 ---

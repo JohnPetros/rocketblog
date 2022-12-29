@@ -66,5 +66,3 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 Feito com 💜 by João Pedro 👋🏻
-
-https://www.figma.com/file/glgyL2Vz8hZ1HsjzvcOx8T/DD-%2F-RocketBlog-(Copy)?node-id=3%3A2&t=cXVyNYSIc4dm9Py8-0

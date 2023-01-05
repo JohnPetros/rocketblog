@@ -34,8 +34,7 @@ Homepage responsiva para um blog de notícias voltado para devs feito com HTML e
 
 ## 📖 Aprendizado
 
-- Criação de um menu lateral puramente com CSS e HTML, que funciona da seguinte forma: quando a largura da pagína diminui a uma certa medida, aparece um menu hambúrguer no cabeçalho, que nada mais é que uma label associada a um checkbox escondido. Quando essa checkbox é preenchida, o menu lateral é deslocado para a direita via CSS de modo que apareça na página. 
-
+- Criação de um menu lateral puramente com CSS e HTML, que funciona da seguinte forma: quando a largura da pagína diminui a uma certa medida, aparece um menu hambúrguer no cabeçalho, que nada mais é que uma label associada a um checkbox escondido. Quando essa checkbox é preenchida, o menu lateral é deslocado para a direita via CSS de modo que apareça na parte esquerda da página. 
 
 ---
 

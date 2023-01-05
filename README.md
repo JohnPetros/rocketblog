@@ -22,7 +22,7 @@
 
 ## 🖥️ Projeto
 
-Homepage responsiva para um blog de notícias voltado para devs feito com HTML e CSS. Projeto desenvolvido como desafio  durante o Discover, que programa de ensino de programação web para iniciantes promovido a @Rocketseat.
+Homepage responsiva para um blog de notícias voltado para devs feito com HTML e CSS. Projeto desenvolvido como desafio durante o Discover, que é um programa promovido pela @Rocketseat voltado para o ensino de programação web para iniciantes.
 
 ### Demonstração
 <div align="center">

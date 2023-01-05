@@ -38,7 +38,7 @@ Homepage responsiva para um blog de notícias voltado para devs feito com HTML e
 
 ---
 
-## 🚀 Tecnologias
+## 🛠️ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -47,11 +47,29 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ✔️ **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
 
 
-## Como rodar este projeto
 
-Você pode baixar os arquivos direto deste repositório e executá-los no seu navegador ou simplesmente acessar [este link](https://johnpetros.github.io/rocketblog/) visualizar o projeto colocado no ar através do GitHub Pages.
+## 🚀 Como rodar este projeto
 
----
+### Pré-requesitos
+
+Embora não seja obrigatório, para rodar a aplicação de uma forma mais prática, é bom ter o editor de código [VSCode](https://code.visualstudio.com/) junto com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), que pode ser instalada no marketplace do próprio VSCode. 
+
+#### 📟 Rodando a aplicação
+
+```bash
+
+# Clone este repositório no terminal/cmd
+$ git clone https://github.com/JohnPetros/rocketshoes.git
+
+# Acesse a pasta do projeto 
+$ cd rocketshoes
+
+# Abra a pasta no VSCode
+$ code .
+
+# Execute o arquivo index com a extensão Live Server, clicando com o botão direito sobre ele e depois em Open with Live Server
+
+```
 
 ## 🎨 Layout:
 No link abaixo você encontra o layout do projeto feito pela equipe da Rocketseat. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
